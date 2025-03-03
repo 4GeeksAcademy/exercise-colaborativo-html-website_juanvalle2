@@ -3,13 +3,26 @@ body{
 }
 
 .row1{
-    background-image: url('https://github.com/4GeeksAcademy/exercise-colaborativo-html-website_juanvalle2/blob/master/website/assets/img/bg.jpg?raw=true') ;
-   display: block;
+   background-image: url('https://github.com/4GeeksAcademy/exercise-colaborativo-html-website_juanvalle2/blob/master/website/assets/img/bg.jpg?raw=true') ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100px; 
+    width: 100%;
+    min-height: 100vh;
 }
 
 
 
 .texto1 {
-    background-color: rgb(70, 161, 161);
-    
+    background-color: rgb(227, 236, 236);
+    font-size: 150px;
 }
+
+.texto2 {
+    background-color: rgb(227, 236, 236);
+    font-size: 100px;
+}
+
+
+
